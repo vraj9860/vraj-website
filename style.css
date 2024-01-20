@@ -9,7 +9,7 @@ body {
   width: 100%;
   background-color: #f8f8f8;
   color: #333;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Robo Mono", monospace;
   font-size: 16px;
 }
 
@@ -162,6 +162,18 @@ i {
   margin: 15px;
   transition: transform 0.7s ease;
   font-size: 26px;
+}
+
+.fa-linkedin:hover{
+  color:#0077b5; 
+}
+
+.fa-discord:hover{
+  color:#7289d9;
+}
+
+.fa-instagram:hover{
+  color:#E1306C;
 }
 
 i:hover {
