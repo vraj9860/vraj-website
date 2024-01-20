@@ -9,9 +9,9 @@ var particles = Particles.init({
     {
       breakpoint: 768,
       options: {
-        color: ["#FFF", "#f0f0f0", "#dcdcdc", "#b0b0b0"],
+        color: ["#333", "#555", "#777", "#999"],
         maxParticles: 70,
-        connectParticles: false,
+        connectParticles: true,
       },
     },
   ],
