@@ -11,7 +11,7 @@ var particles = Particles.init({
       options: {
         color: ["#333", "#555", "#777", "#999"],
         maxParticles: 70,
-        connectParticles: true,
+        connectParticles: false,
       },
     },
   ],
