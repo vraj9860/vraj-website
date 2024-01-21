@@ -190,7 +190,8 @@ p {
 }
 .project-image {
   margin-top: 25px;
-  max-width: 200px;
+  max-height: 200px;
+  max-width: 300px;
   margin-right: 20px;
 }
 .project-details {
