@@ -14,6 +14,9 @@ body {
 }
 
 main {
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
   height: 90vh;
   display: flex;
 }
@@ -31,6 +34,9 @@ main {
 }
 
 .profile-container {
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
   display: flex;
   perspective: 1000px;
   /* Perspective for 3D effect */
@@ -38,9 +44,8 @@ main {
 
 .profile-card {
   position: relative;
-  width: 120px;
-  /* Adjust the size as needed */
-  height: 120px;
+  width: 140px;
+  height: 140px;
   transform-style: preserve-3d;
   /* Preserve 3D transformations */
   transition: transform 0.5s ease-in-out;
@@ -227,6 +232,7 @@ a:hover {
 }
 
 #date {
+  margin: 0 40px;
   text-align: left;
   color: #555;
   padding-top: 30px;
