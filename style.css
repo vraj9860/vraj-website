@@ -107,11 +107,12 @@ h3 {
   letter-spacing: 5px;
   font-size: 2vw;
 }
-h4 {
+article {
   color: #555;
   padding-top: 10px;
   letter-spacing: 5px;
   font-size: 1.5vw;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1:hover,
@@ -184,7 +185,6 @@ p {
   padding: 20px;
   font-size: 0.9em;
 }
-
 .project {
   margin-bottom: 30px;
 }
@@ -260,9 +260,6 @@ a:hover {
 
   h3 {
     font-size: 4vw;
-  }
-  h4{
-    font-size: 3vw;
   }
 
   .button{
